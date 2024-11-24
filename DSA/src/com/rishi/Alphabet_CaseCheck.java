@@ -1,4 +1,4 @@
-pppackage com.rishi;
+package com.rishi;
 import java.util.*;
 
 public class Alphabet_CaseCheck {
@@ -9,11 +9,11 @@ public class Alphabet_CaseCheck {
 		char ch =sc.next().trim().charAt(0);
 		
 		if(ch >= 'a' && ch <='z') {
-			System.out.print("Lower case");
+			System.out.print("Lower case characters");
 		}
 		else if(ch >= 'A' && ch <='Z')
 		{
-			System.out.print("Upper case");
+			System.out.print("Upper case characters");
 		}
 		else {
 			System.out.println("Invalid");
